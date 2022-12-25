@@ -1,0 +1,17 @@
+#include <stdio.h>
+main()
+{
+int num,a,b,c,d,e,sum;
+printf("enter 5 digit number:- ");
+scanf ("%d",&num);
+e=num%10;
+d=(num/10)%10;
+c=(num/100)%10;
+b=(num/1000)%10;
+a=(num/10000);
+sum=a+b+c+d+e;
+printf("%d is the sum of the digits of the number %d.",sum, num);
+return 0;
+}
+
+
